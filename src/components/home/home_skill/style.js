@@ -27,7 +27,7 @@ export const Container = styled.ul`
     justify-content: center;
   }
   .partCima {
-    margin-top: -8px;
+    margin-top: 2px;
     animation: moveCima 5s infinite alternate-reverse ease-in;
   }
   .partBaixo {
