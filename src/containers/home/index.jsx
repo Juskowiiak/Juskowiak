@@ -2,6 +2,9 @@
 import { Container, HomePage, Janela } from "./style";
 //importar icons
 import { TiArrowRight } from "react-icons/ti";
+//importar picture
+import Projeto from "../../assets/home/projeto.gif";
+import Sobre from "../../assets/home/sobre.gif";
 //importar componentes do Home
 import Navegador from "../navegador";
 import HomeSocial from "../../components/home/home_social";
@@ -18,7 +21,7 @@ export default function Home() {
       </HomePage>
       <Janela>
         <li>
-          <img src="#"></img>
+          <img src={Sobre}></img>
           <a href="#">
             <h4>
               SOBRE MI <TiArrowRight className="i" />
@@ -26,7 +29,7 @@ export default function Home() {
           </a>
         </li>
         <li>
-          <img src="#"></img>
+          <img src={Projeto}></img>
           <a href="#">
             <h4>
               PROJETOS <TiArrowRight className="i" />

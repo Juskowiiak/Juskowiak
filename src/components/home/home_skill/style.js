@@ -46,8 +46,8 @@ export const Skills = styled.ul`
     background-size: 50% 65%;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 0.9s;
-    background-color: var(--cor-dark3);
+    transition: 0.4s;
+    background-color: var(--cor-dark7);
     border: 2px solid var(--cor-dark1);
     cursor: pointer;
     &::after {
@@ -58,71 +58,71 @@ export const Skills = styled.ul`
       border-radius: 10px;
       top: 0;
       left: 0;
+      transition: 0.4s;
     }
   }
   li:first-child {
     background-image: url("${pict1}");
     &:hover {
-      box-shadow: 1px 1px 10px #e34c26;
+      box-shadow: 2px 2px 10px #e34c26;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #e34c26;
+      box-shadow: -2px -2px 10px #e34c26;
     }
   }
   li:nth-child(2) {
     background-image: url("${pict2}");
     &:hover {
-      box-shadow: 1px 1px 10px #2965f1;
+      box-shadow: 2px 2px 10px #2965f1;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #2965f1;
+      box-shadow: -2px -2px 10px #2965f1;
     }
   }
   li:nth-child(3) {
     background-image: url("${pict3}");
     &:hover {
-      box-shadow: 1px 1px 10px #f0db4f;
+      box-shadow: 2px 2px 10px #f0db4f;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #f0db4f;
+      box-shadow: -2px -2px 10px #f0db4f;
     }
   }
   li:nth-child(4) {
     background-image: url("${pict4}");
     &:hover {
-      box-shadow: 1px 1px 10px #cc6699;
+      box-shadow: 2px 2px 10px #563d7c;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #cc6699;
+      box-shadow: -2px -2px 10px #563d7c;
     }
-    background-size: 70% 60%;
   }
   li:nth-child(5) {
     background-image: url("${pict5}");
     &:hover {
-      box-shadow: 1px 1px 10px #f34f29;
+      box-shadow: 2px 2px 10px #f34f29;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #f34f29;
+      box-shadow: -2px -2px 10px #f34f29;
     }
   }
   li:nth-child(6) {
     background-image: url("${pict6}");
     &:hover {
-      box-shadow: 1px 1px 10px #1c84bc;
+      box-shadow: 2px 2px 10px #1c84bc;
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px #1c84bc;
+      box-shadow: -2px -2px 10px #1c84bc;
     }
     background-size: 60% 60%;
   }
   li:last-child {
     background-image: url("${pict7}");
     &:hover {
-      box-shadow: 1px 1px 10px rgb(211, 53, 198);
+      box-shadow: 2px 2px 10px rgb(211, 53, 198);
     }
     &:hover:after {
-      box-shadow: -1px -1px 10px rgb(211, 53, 198);
+      box-shadow: -2px -2px 10px rgb(211, 53, 198);
     }
   }
 `;

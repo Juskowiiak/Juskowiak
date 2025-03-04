@@ -13,7 +13,7 @@
   },
   {
     "id": 3,
-    "nome": "SASS"
+    "nome": "BOOTSTRAP"
   },
   {
     "id": 4,
@@ -25,6 +25,6 @@
   },
   {
     "id": 6,
-    "nome": "STYLED COMPONENTS"
+    "nome": "FIGMA"
   }
 ]
