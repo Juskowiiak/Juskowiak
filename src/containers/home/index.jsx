@@ -3,6 +3,7 @@ import { Container, HomePage, Janela } from "./style";
 //importar icons
 import { TiArrowRight } from "react-icons/ti";
 //importar componentes do Home
+import Navegador from "../navegador";
 import HomeSocial from "../../components/home/home_social";
 import HomeSkill from "../../components/home/home_skill";
 import HomeInfo from "../../components/home/home_info";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <Container>
       <HomePage>
+        <Navegador />
         <HomeInfo />
         <HomeSkill />
         <HomeSocial />

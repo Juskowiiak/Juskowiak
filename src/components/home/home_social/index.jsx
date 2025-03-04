@@ -2,7 +2,7 @@ import { Container } from "./style";
 //importar Icons
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+
 export default function HomeSocial() {
   return (
     <Container>
@@ -14,11 +14,6 @@ export default function HomeSocial() {
       <li>
         <a href="#">
           <FaGithub className="i" />
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <FaYoutube className="i" />
         </a>
       </li>
     </Container>
