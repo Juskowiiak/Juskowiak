@@ -16,9 +16,11 @@ export const Container = styled.ul`
   border-radius: 0px 0px 8px 8px;
   overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: end;
-  padding-bottom: 12px;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: start;
+  padding-left: 8%;
+
   /*
     &::before {
     position: absolute;
@@ -30,13 +32,17 @@ export const Container = styled.ul`
     background: linear-gradient(180deg, transparent 5%, var(--cor-dark3) 100%);
   }
   */
+  h5 {
+    color: var(--cor-dark3);
+    font-family: monospace;
+    letter-spacing: 1.1px;
+    margin-left: 5px;
+  }
 `;
 
 export const Skills = styled.ul`
   display: flex;
   gap: 20px;
-  justify-content: center;
-
   li {
     position: relative;
     height: 55px;
@@ -47,8 +53,7 @@ export const Skills = styled.ul`
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.4s;
-    background-color: var(--cor-dark7);
-    border: 2px solid var(--cor-dark1);
+    box-shadow: 3px 3px 2px var(--cor-dark2);
     cursor: pointer;
     &::after {
       position: absolute;
@@ -60,9 +65,19 @@ export const Skills = styled.ul`
       left: 0;
       transition: 0.4s;
     }
+    @keyframes alteraSize {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+    }
   }
   li:first-child {
     background-image: url("${pict1}");
+    animation: alteraSize 2s ease-in infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px #e34c26;
     }
@@ -72,6 +87,7 @@ export const Skills = styled.ul`
   }
   li:nth-child(2) {
     background-image: url("${pict2}");
+    animation: alteraSize 2s ease-in 2s infinite alternate-reverse;
     &:hover {
       box-shadow: 2px 2px 10px #2965f1;
     }
@@ -81,6 +97,8 @@ export const Skills = styled.ul`
   }
   li:nth-child(3) {
     background-image: url("${pict3}");
+    animation: alteraSize 2s ease-in 3s infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px #f0db4f;
     }
@@ -90,6 +108,8 @@ export const Skills = styled.ul`
   }
   li:nth-child(4) {
     background-image: url("${pict4}");
+    animation: alteraSize 2s ease-in 4s infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px #563d7c;
     }
@@ -99,6 +119,8 @@ export const Skills = styled.ul`
   }
   li:nth-child(5) {
     background-image: url("${pict5}");
+    animation: alteraSize 2s ease-in 5s infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px #f34f29;
     }
@@ -108,6 +130,8 @@ export const Skills = styled.ul`
   }
   li:nth-child(6) {
     background-image: url("${pict6}");
+    animation: alteraSize 2s ease-in 6s infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px #1c84bc;
     }
@@ -118,6 +142,8 @@ export const Skills = styled.ul`
   }
   li:last-child {
     background-image: url("${pict7}");
+    animation: alteraSize 2s ease-in 7s infinite alternate-reverse;
+
     &:hover {
       box-shadow: 2px 2px 10px rgb(211, 53, 198);
     }

@@ -13,7 +13,7 @@ export const Container = styled.ul`
   .text {
     width: 70%;
     h2 {
-      font-size: 2.2rem;
+      font-size: 3rem;
       font-family: monospace;
       margin-bottom: 2rem;
       color: var(--cor-dark4);
@@ -24,8 +24,8 @@ export const Container = styled.ul`
     p {
       width: 80%;
       line-height: 1.5rem;
-      font-size: 1.2rem;
-      color: var(--cor-dark4);
+      font-size: 1.3rem;
+      color: var(--cor-dark3);
       span:first-of-type {
         font-weight: bold;
         letter-spacing: 1px;
