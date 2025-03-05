@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //importar file
 import "../../../Style/cores.css";
+import "../../../Style/breakpoints";
 //importar pictures
 import pict1 from "../../../assets/home/log1.png";
 import pict2 from "../../../assets/home/log2.png";
@@ -9,6 +10,7 @@ import pict4 from "../../../assets/home/log4.png";
 import pict5 from "../../../assets/home/log5.png";
 import pict6 from "../../../assets/home/log6.png";
 import pict7 from "../../../assets/home/log7.png";
+import breakpoints from "../../../Style/breakpoints";
 
 export const Container = styled.ul`
   position: relative;
@@ -37,6 +39,11 @@ export const Container = styled.ul`
     font-family: monospace;
     letter-spacing: 1.1px;
     margin-left: 5px;
+  }
+  @media ${breakpoints.ml} {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
   }
 `;
 
@@ -72,6 +79,16 @@ export const Skills = styled.ul`
       100% {
         transform: scale(1.1);
       }
+    }
+    @media ${breakpoints.ml} {
+      height: 45px;
+      min-width: 55px;
+    }
+    @media ${breakpoints.ml} {
+      height: 35px;
+      min-width: 45px;
+      background-size: 50% 65%;
+      margin-block: 0;
     }
   }
   li:first-child {
@@ -150,5 +167,11 @@ export const Skills = styled.ul`
     &:hover:after {
       box-shadow: -2px -2px 10px rgb(211, 53, 198);
     }
+  }
+  @media ${breakpoints.s} {
+    overflow-x: scroll;
+    padding-block: 10px;
+    padding-inline: 10px;
+    width: 90%;
   }
 `;

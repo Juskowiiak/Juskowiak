@@ -1,6 +1,9 @@
 import styled from "styled-components";
 //importar file
 import "../../../Style/cores.css";
+import "../../../Style/breakpoints";
+import breakpoints from "../../../Style/breakpoints";
+
 export const Container = styled.ul`
   height: 80%;
   width: 90%;
@@ -20,10 +23,18 @@ export const Container = styled.ul`
       .um {
         letter-spacing: 2.8px;
       }
+      @media ${breakpoints.ml} {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      @media ${breakpoints.m} {
+        font-size: 1.7rem;
+        width: 90%;
+        margin-inline: auto;
+      }
     }
     p {
       width: 80%;
-      line-height: 1.5rem;
       font-size: 1.3rem;
       color: var(--cor-dark3);
       span:first-of-type {
@@ -44,15 +55,43 @@ export const Container = styled.ul`
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+      @media ${breakpoints.ml} {
+        width: 100%;
+        font-size: 1.1rem;
+      }
+      @media ${breakpoints.m} {
+        font-size: 0.9rem;
+      }
+      @media ${breakpoints.xs} {
+        font-size: 0.7rem;
+        line-height: 1rem;
+      }
     }
-
     .i {
       width: 20px;
       height: auto;
       margin-inline: 5px 2px;
+      @media ${breakpoints.s} {
+        width: 15px;
+      }
+    }
+    @media ${breakpoints.ml} {
+      text-align: center;
+      width: 90%;
     }
   }
   .picture {
-    min-width: 240px;
+    min-width: 220px;
+    height: 230px;
+    border: 1px solid cyan;
+    @media ${breakpoints.s} {
+      height: 190px;
+      min-width: 180px;
+    }
+  }
+  @media ${breakpoints.ml} {
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    width: 100%;
   }
 `;
