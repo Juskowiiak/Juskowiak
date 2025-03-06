@@ -6,10 +6,14 @@ import { IoCode } from "react-icons/io5";
 import { IoCodeSlashSharp } from "react-icons/io5";
 //importar imagem
 import picture from "../../assets/home/menu.png";
+import { Link } from "react-router-dom";
 export default function Navegador() {
   const [showMenu, setShowMenu] = useState(false);
   function Menu() {
     setShowMenu(!showMenu);
+  }
+  function fecharMenu() {
+    setShowMenu(false);
   }
   return (
     <Container>
@@ -23,20 +27,20 @@ export default function Navegador() {
           <img src={picture} />
         </div>
         <ul>
-          <li>
-            <a href="#">
+          <li onClick={() => fecharMenu()}>
+            <Link to="/">
               <IoCode /> HOMEPAGE <IoCodeSlashSharp />
-            </a>
+            </Link>
           </li>
-          <li>
-            <a href="#">
+          <li onClick={() => fecharMenu()}>
+            <Link to="/sobre">
               <IoCode /> SOBRE MI <IoCodeSlashSharp />
-            </a>
+            </Link>
           </li>
-          <li>
-            <a href="#">
+          <li onClick={() => fecharMenu()}>
+            <Link to="/projeto">
               <IoCode /> PROJETOS <IoCodeSlashSharp />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

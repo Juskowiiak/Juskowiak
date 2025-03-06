@@ -42,11 +42,7 @@ export const Container = styled.div`
     padding-block: 0.3rem 1.2rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(
-      180deg,
-      var(--cor-dark6),
-      var(--cor-dark1) 100%
-    );
+    background: linear-gradient(180deg, var(--cor-dark1), #ffffff 74%);
     .picture {
       width: 200px;
       margin-bottom: 2.2rem;
@@ -57,31 +53,28 @@ export const Container = styled.div`
       flex-direction: column;
       gap: 20px;
       li {
-        a {
-          display: flex;
-          justify-content: space-evenly;
-          align-items: center;
-          font-family: monospace;
-          color: var(--cor-dark9);
-          transition: 0.5s;
-          font-size: 1rem;
-          text-shadow: 0.2px 0.2px 1px #000000;
-          position: relative;
-          &:hover {
-            letter-spacing: 1px;
-            color: #fff;
-          }
-          &::after {
-            position: absolute;
-            content: "";
-            bottom: -8px;
-            width: 60%;
-            left: 50%;
-            height: 3px;
-            transform: translateX(-50%);
-            background-color: var(--cor-dark3);
-            border-radius: 50%;
-          }
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: monospace;
+        color: var(--cor-dark2);
+        transition: 0.5s;
+        font-size: 1rem;
+
+        position: relative;
+        &:hover {
+          letter-spacing: 1px;
+        }
+        &::after {
+          position: absolute;
+          content: "";
+          bottom: -8px;
+          width: 60%;
+          left: 50%;
+          height: 3px;
+          transform: translateX(-50%);
+          background-color: var(--cor-dark3);
+          border-radius: 50%;
         }
       }
     }

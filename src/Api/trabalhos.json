@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "lista": ["dois", "tres", "quatro"]
+  },
+  {
+    "id": 1,
+    "lista": ["cinco", "seis", "sete"]
+  }
+]
