@@ -34,7 +34,7 @@ export default function Navegador() {
           </li>
           <li onClick={() => fecharMenu()}>
             <Link to="/sobre">
-              <IoCode /> SOBRE MI <IoCodeSlashSharp />
+              <IoCode /> SOBRE MIM <IoCodeSlashSharp />
             </Link>
           </li>
           <li onClick={() => fecharMenu()}>
