@@ -1,5 +1,8 @@
 import styled from "styled-components";
+//importar files
+import "../../Style/breakpoints";
 import "../../Style/cores.css";
+import breakpoints from "../../Style/breakpoints";
 export const Container = styled.div`
   position: absolute;
   top: 1.5vh;
@@ -7,8 +10,6 @@ export const Container = styled.div`
   right: 1.5vh;
   height: 97vh;
   width: 100%;
-
-  border: 2px solid blue;
   #main {
     position: absolute;
     z-index: 2;
@@ -38,7 +39,7 @@ export const Container = styled.div`
   }
   #second {
     position: relative;
-    z-index: 2;
+    z-index: -1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -50,7 +51,8 @@ export const Container = styled.div`
     padding: 2rem 1rem;
     background: var(--cor-dark2);
     border-radius: 10px;
-
+    border: 2px solid #000;
+    opacity: 0;
     .picture {
       width: 50px;
       height: 50px;
@@ -74,6 +76,7 @@ export const Container = styled.div`
           align-items: center;
           gap: 10px;
           transition: 0.5s;
+          letter-spacing: 1.2px;
           &:hover {
             color: var(--cor-dark8);
           }
@@ -92,6 +95,12 @@ export const Container = styled.div`
           transform: translateX(-50%);
           background-color: var(--cor-dark5);
         }
+        @media ${breakpoints.s} {
+          font-size: 0.8rem;
+        }
+        @media ${breakpoints.xs} {
+          font-size: 0.6rem;
+        }
       }
     }
     .close {
@@ -106,21 +115,30 @@ export const Container = styled.div`
         color: var(--cor-dark7);
       }
     }
+    &::after {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 50%;
+      width: 100vw;
+      height: 97vh;
+      background: transparent;
+      -webkit-backdrop-filter: blur(1px);
+      backdrop-filter: blur(1px);
+      z-index: -1;
+      transform: translate(-50%, -50%);
+    }
+    @media ${breakpoints.s} {
+      width: 260px;
+    }
+    @media ${breakpoints.xs} {
+      width: 220px;
+    }
   }
-  &::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 97vh;
-    background: transparent;
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px);
 
-    z-index: 1;
-  }
   .active {
+    opacity: 1 !important;
+    z-index: 3 !important;
   }
   @keyframes mudaCor {
     0% {

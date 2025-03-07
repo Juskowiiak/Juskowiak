@@ -16,4 +16,5 @@ export const HomePage = styled.div`
   border-radius: 0px 8px 0px 8px;
   position: relative;
   background-color: #ffffff;
+  z-index: 1;
 `;
