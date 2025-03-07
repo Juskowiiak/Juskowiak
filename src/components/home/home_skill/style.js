@@ -41,7 +41,7 @@ export const Container = styled.ul`
     margin-left: 5px;
   }
   @media ${breakpoints.ml} {
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding-left: 0;
   }
@@ -84,11 +84,15 @@ export const Skills = styled.ul`
       height: 45px;
       min-width: 55px;
     }
-    @media ${breakpoints.ml} {
+    @media ${breakpoints.m} {
       height: 35px;
       min-width: 45px;
       background-size: 50% 65%;
       margin-block: 0;
+    }
+    @media ${breakpoints.s} {
+      height: 30px;
+      min-width: 40px;
     }
   }
   li:first-child {
@@ -170,7 +174,7 @@ export const Skills = styled.ul`
   }
   @media ${breakpoints.s} {
     overflow-x: scroll;
-    padding-block: 10px;
+    padding-block: 10px 15px;
     padding-inline: 10px;
     width: 90%;
   }

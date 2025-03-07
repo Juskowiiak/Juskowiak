@@ -2,6 +2,7 @@ import styled from "styled-components";
 //import files
 import "../../../Style/cores.css";
 import Breakpoints from "../../../Style/breakpoints";
+import breakpoints from "../../../Style/breakpoints";
 export const Container = styled.div`
   width: 100%;
   height: 80vh;
@@ -24,9 +25,23 @@ export const Container = styled.div`
     background-color: #fff;
     border-radius: 50%;
     z-index: 1;
+    transition: 0.5s;
+    @media ${breakpoints.ml} {
+      width: 120%;
+      bottom: -10%;
+    }
+    @media ${breakpoints.m} {
+    }
+    @media ${breakpoints.s} {
+    }
   }
   .picture {
-    max-width: 260px;
+    min-width: 280px;
+    transition: 0.5s;
+    @media ${breakpoints.s} {
+      min-width: 210px !important;
+      max-width: 220px;
+    }
   }
   .text {
     width: 50%;
@@ -46,6 +61,24 @@ export const Container = styled.div`
       width: 20px;
       height: auto;
       margin-inline: 5px 2px;
+    }
+    @media ${breakpoints.ml} {
+      width: 90%;
+      text-align: center;
+    }
+    @media ${breakpoints.m} {
+      font-size: 1rem;
+    }
+    @media ${breakpoints.xs} {
+      font-size: 0.8rem;
+    }
+  }
+  @media ${breakpoints.ml} {
+    flex-direction: column-reverse;
+    height: 120vh;
+    padding-top: 0;
+    @media ${breakpoints.s} {
+      height: 125vh;
     }
   }
 `;

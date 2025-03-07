@@ -2,12 +2,24 @@ import styled from "styled-components";
 //import files
 import "../../../Style/cores.css";
 import Breakpoints from "../../../Style/breakpoints";
+import breakpoints from "../../../Style/breakpoints";
 export const Container = styled.div`
   width: 100%;
-
   padding-top: 6.5vh;
   h2 {
-    margin-bottom: 5rem;
+    margin-bottom: 9rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--cor-dark4);
+    text-shadow: 1px 1px 1px var(--cor-dark6);
+    @media ${breakpoints.s} {
+      font-size: 2.2rem;
+      margin-bottom: 7rem;
+    }
+    @media ${breakpoints.xs} {
+      font-size: 1.8rem;
+      margin-bottom: 7rem;
+    }
   }
 `;
 
@@ -16,15 +28,16 @@ export const Works = styled.ul`
   margin-inline: auto;
   display: flex;
   justify-content: space-around;
-  gap: 60px 30px;
+  gap: 60px 50px;
   flex-wrap: wrap;
+  transition: 0.5s;
   .card {
     width: 390px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
     padding-block: 10px;
+    transition: 0.5s;
     .picture {
       width: 100%;
       height: auto;
@@ -74,5 +87,14 @@ export const Works = styled.ul`
         }
       }
     }
+    @media ${breakpoints.s} {
+      width: 300px;
+    }
+  }
+  @media ${breakpoints.ml} {
+    gap: 80px 30px;
+  }
+  @media ${breakpoints.s} {
+    gap: 100px 30px;
   }
 `;

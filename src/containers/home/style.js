@@ -7,6 +7,7 @@ export const Container = styled.div`
   position: relative;
   display: flex;
   gap: 10px;
+  overflow-y: hidden;
 `;
 
 export const HomePage = styled.div`

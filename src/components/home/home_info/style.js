@@ -12,7 +12,6 @@ export const Container = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-
   .text {
     width: 70%;
     h2 {
@@ -90,7 +89,7 @@ export const Container = styled.ul`
     }
   }
   @media ${breakpoints.ml} {
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column-reverse;
     width: 100%;
   }

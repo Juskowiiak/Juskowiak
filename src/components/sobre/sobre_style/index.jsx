@@ -22,8 +22,8 @@ export default function SobreStyle() {
 
                 <ul>
                   {item.lista.map((i) => (
-                    <li>
-                      <img src={i} />
+                    <li key={i.id}>
+                      <img src={i.pic} />
                     </li>
                   ))}
                 </ul>

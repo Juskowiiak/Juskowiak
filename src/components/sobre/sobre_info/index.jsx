@@ -15,7 +15,7 @@ export default function SobreInfo() {
         </li>
         <li>
           <span>O </span>meu primeiro contato com a programação foi na escola,
-          aonde aprendemos o básico de C++ e PHP, mas o que realmente chamou-me
+          aonde aprendi o básico de C++ e PHP, mas o que realmente chamou-me
           atenção foi o FrontEnd, gostava de saber o que estava a fazer pouco a
           pouco.
         </li>
