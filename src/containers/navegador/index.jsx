@@ -2,8 +2,10 @@ import { useState } from "react";
 import { Container } from "./style";
 //importar icons
 import { IoMdMenu } from "react-icons/io";
-import { IoCode } from "react-icons/io5";
-import { IoCodeSlashSharp } from "react-icons/io5";
+import { IoHomeOutline } from "react-icons/io5";
+import { FaRegUser } from "react-icons/fa";
+import { GrProjects } from "react-icons/gr";
+import { IoMdClose } from "react-icons/io";
 //importar imagem
 import picture from "../../assets/home/menu.png";
 import { Link } from "react-router-dom";
@@ -24,25 +26,30 @@ export default function Navegador() {
       {/* se showMenu for true, é atribuido a class active */}
       <div id="second" className={showMenu ? "active" : ""}>
         <div className="picture">
-          <img src={picture} />
+          <img src="#" />
         </div>
         <ul>
-          <li onClick={() => fecharMenu()}>
+          <li onClick={() => fecharMenu()} title="HOMEPAGE">
             <Link to="/">
-              <IoCode /> HOMEPAGE <IoCodeSlashSharp />
+              <IoHomeOutline /> HOMEPAGE
             </Link>
           </li>
-          <li onClick={() => fecharMenu()}>
+          <li onClick={() => fecharMenu()} title="SOBRE MIM">
             <Link to="/sobre">
-              <IoCode /> SOBRE MIM <IoCodeSlashSharp />
+              <FaRegUser /> SOBRE MIM
             </Link>
           </li>
-          <li onClick={() => fecharMenu()}>
+          <li onClick={() => fecharMenu()} title="PROJETOS">
             <Link to="/projeto">
-              <IoCode /> PROJETOS <IoCodeSlashSharp />
+              <GrProjects /> PROJETOS
             </Link>
           </li>
         </ul>
+        <IoMdClose
+          className="close"
+          title="fechar"
+          onClick={() => fecharMenu()}
+        />
       </div>
     </Container>
   );

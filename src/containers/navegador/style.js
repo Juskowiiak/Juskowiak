@@ -4,17 +4,22 @@ export const Container = styled.div`
   position: absolute;
   top: 1.5vh;
   left: 1.5vh;
-  height: 5vh;
-  border-radius: 0 0 8px 0;
-  background-color: var(--cor-dark1);
-  animation: mudaCor 20s ease-in infinite alternate-reverse;
+  right: 1.5vh;
+  height: 97vh;
+  width: 100%;
 
+  border: 2px solid blue;
   #main {
+    position: absolute;
+    z-index: 2;
+    animation: mudaCor 20s ease-in infinite alternate-reverse;
+    top: 0;
+    left: 0;
     display: flex;
-    height: 100%;
+    height: auto;
     gap: 8px;
+    border-radius: 0 0 8px 0;
     padding: 0.2rem 0.5rem;
-
     align-items: center;
     h5 {
       font-size: 0.7rem;
@@ -32,56 +37,90 @@ export const Container = styled.div`
     }
   }
   #second {
-    position: absolute;
-    top: 5vh;
-    width: 210px;
-    left: -270px;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
     transition: 0.5s;
-    box-shadow: 1px 1px 3px var(--cor-dark1);
-    padding-block: 0.3rem 1.2rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, var(--cor-dark1), #ffffff 74%);
+    align-items: center;
+    padding: 2rem 1rem;
+    background: var(--cor-dark2);
+    border-radius: 10px;
+
     .picture {
-      width: 200px;
-      margin-bottom: 2.2rem;
-      margin-left: 5px;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 2rem;
     }
     ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
+      width: 100%;
       li {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         font-family: monospace;
-        color: var(--cor-dark2);
         transition: 0.5s;
         font-size: 1rem;
-
+        padding-block: 0.9rem;
+        width: 100%;
         position: relative;
+        a {
+          color: #fff;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          transition: 0.5s;
+          &:hover {
+            color: var(--cor-dark8);
+          }
+        }
         &:hover {
           letter-spacing: 1px;
+          padding-left: 8px;
         }
         &::after {
           position: absolute;
           content: "";
-          bottom: -8px;
-          width: 60%;
+          width: 90%;
+          height: 0.5px;
+          bottom: -5px;
           left: 50%;
-          height: 3px;
           transform: translateX(-50%);
-          background-color: var(--cor-dark3);
-          border-radius: 50%;
+          background-color: var(--cor-dark5);
         }
       }
     }
+    .close {
+      position: absolute;
+      color: #fff;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.6rem;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        color: var(--cor-dark7);
+      }
+    }
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 97vh;
+    background: transparent;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+
+    z-index: 1;
   }
   .active {
-    left: 0 !important;
-    border: none !important;
   }
   @keyframes mudaCor {
     0% {

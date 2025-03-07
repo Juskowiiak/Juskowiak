@@ -17,8 +17,8 @@ body {
   scroll-behavior: smooth;
   background-color:var(--cor-dark1);
   padding: 1.5vh;
-  animation: mudaCor 20s ease-in infinite alternate-reverse;
-
+  animation: mudaCor 20s ease-in infinite alternate-reverse;  
+  overflow: hidden;
 @keyframes mudaCor {
   0% {
     background-color:var(--cor-dark1);

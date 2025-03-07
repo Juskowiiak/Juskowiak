@@ -41,6 +41,10 @@ export const Container = styled.div`
     @media ${breakpoints.s} {
       min-width: 210px !important;
       max-width: 220px;
+      img {
+        width: 110%;
+        height: 110%;
+      }
     }
   }
   .text {
@@ -78,7 +82,8 @@ export const Container = styled.div`
     height: 120vh;
     padding-top: 0;
     @media ${breakpoints.s} {
-      height: 125vh;
+      justify-content: center;
+      gap: 15px;
     }
   }
 `;

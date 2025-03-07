@@ -11,7 +11,7 @@ export const Container = styled.ul`
   position: absolute;
   bottom: 1.5vh;
   right: 1.5vh;
-  z-index: 3;
+  z-index: 2;
   background-color: var(--cor-dark1);
   li {
     border: 2px solid #fff;
