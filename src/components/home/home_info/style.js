@@ -97,13 +97,10 @@ export const Container = styled.ul`
     flex-direction: column-reverse;
     width: 100%;
     height: 75%;
-    border: 1px solid red;
   }
   @media ${breakpoints.s} {
     justify-content: space-evenly;
     flex-direction: column-reverse;
     width: 100%;
-    height: 85%;
-    border: 1px solid red;
   }
 `;
