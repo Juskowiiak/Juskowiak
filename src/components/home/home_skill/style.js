@@ -170,5 +170,6 @@ export const Skills = styled.ul`
     padding-block: 10px 5px;
     padding-inline: 10px;
     width: 90%;
+    margin-bottom: 4rem;
   }
 `;

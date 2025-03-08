@@ -34,7 +34,7 @@ export const Container = styled.ul`
     &::after {
       position: absolute;
       content: "";
-      width: 100%;
+      width: 80%;
       left: 50%;
       height: 3px;
       bottom: -20%;

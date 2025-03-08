@@ -18,8 +18,8 @@
     "estado": "Em construção",
     "cor": "orange",
     "picture": "./proj2.gif",
-    "link": "",
-    "git": ""
+    "link": "#",
+    "git": "#"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "estado": "Parado",
     "cor": "red",
     "picture": "./proj2.gif",
-    "link": "",
-    "git": ""
+    "link": "#",
+    "git": "#"
   }
 ]
