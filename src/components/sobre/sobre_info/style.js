@@ -36,15 +36,12 @@ export const Container = styled.div`
     }
   }
   .picture {
-    min-width: 280px;
+    min-width: 240px;
+    height: auto;
     transition: 0.5s;
-    border: 1px solid blue;
-    @media ${breakpoints.s} {
+    @media ${breakpoints.ml} {
       height: 40%;
       min-width: auto;
-      img {
-        border: 1px solid red;
-      }
     }
   }
   .text {
@@ -55,7 +52,6 @@ export const Container = styled.div`
     font-size: 1.15rem;
     color: var(--cor-dark11);
     line-height: 1.5rem;
-    border: 1px solid green;
     span {
       font-weight: bold;
       text-shadow: 1px 1px 1px #000;
@@ -66,26 +62,28 @@ export const Container = styled.div`
       width: 20px;
       height: auto;
       margin-inline: 5px 2px;
+      @media ${breakpoints.s} {
+        width: 15px;
+      }
     }
     @media ${breakpoints.ml} {
-      width: 90%;
+      width: 95%;
       text-align: center;
     }
     @media ${breakpoints.m} {
       font-size: 1rem;
     }
     @media ${breakpoints.s} {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
   }
   @media ${breakpoints.ml} {
     flex-direction: column-reverse;
-    height: 120vh;
+    height: 100vh;
     padding-top: 0;
     @media ${breakpoints.s} {
       justify-content: center;
-      height: 100vh;
-      gap: 15px;
+      gap: 24px;
     }
   }
 `;
