@@ -10,7 +10,7 @@ export const Container = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (max-width: 428px) {
+  @media (max-width: 430px) {
     border: 2px solid red;
   }
 `;
