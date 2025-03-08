@@ -17,7 +17,7 @@ export const Container = styled.div`
     }
     @media ${breakpoints.xs} {
       font-size: 1.8rem;
-      margin-bottom: 7rem;
+      margin-bottom: 10rem;
     }
   }
 `;

@@ -12,7 +12,6 @@ export const Container = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-
   .text {
     width: 70%;
     h2 {
@@ -59,7 +58,9 @@ export const Container = styled.ul`
         width: 100%;
         font-size: 1.1rem;
       }
-
+      @media ${breakpoints.s} {
+        font-size: 0.9rem;
+      }
       @media ${breakpoints.xs} {
         font-size: 0.7rem;
         line-height: 1rem;
@@ -96,6 +97,5 @@ export const Container = styled.ul`
     flex-direction: column-reverse;
     width: 100%;
     height: 75%;
-    border: 1px solid red;
   }
 `;
