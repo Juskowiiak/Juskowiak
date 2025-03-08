@@ -38,6 +38,7 @@ export const Container = styled.div`
   .picture {
     min-width: 280px;
     transition: 0.5s;
+    border: 1px solid blue;
     @media ${breakpoints.s} {
       min-width: 210px !important;
       max-width: 220px;
@@ -55,6 +56,7 @@ export const Container = styled.div`
     font-size: 1.15rem;
     color: var(--cor-dark11);
     line-height: 1.5rem;
+    border: 1px solid green;
     span {
       font-weight: bold;
       text-shadow: 1px 1px 1px #000;
