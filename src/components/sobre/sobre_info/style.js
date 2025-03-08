@@ -83,6 +83,7 @@ export const Container = styled.div`
     padding-top: 0;
     @media ${breakpoints.s} {
       justify-content: center;
+      height: 100vh;
       gap: 15px;
     }
   }
