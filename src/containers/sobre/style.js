@@ -9,4 +9,8 @@ export const Container = styled.div`
   padding-bottom: 3rem;
   position: relative;
   z-index: 1;
+
+  @media (max-width: 428px) {
+    border: 2px solid red;
+  }
 `;
