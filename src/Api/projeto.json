@@ -7,7 +7,8 @@
     "estado": "Completo",
     "cor": "greenyellow",
     "picture": "./proj1.gif",
-    "link": "https://restaurantlafamilia.netlify.app/"
+    "link": "https://restaurantlafamilia.netlify.app/",
+    "git": "https://github.com/Juskowiiak/Projeto_LaFamilia"
   },
   {
     "id": 1,
@@ -17,7 +18,8 @@
     "estado": "Em construção",
     "cor": "orange",
     "picture": "./proj2.gif",
-    "link": ""
+    "link": "",
+    "git": ""
   },
   {
     "id": 2,
@@ -27,6 +29,7 @@
     "estado": "Parado",
     "cor": "red",
     "picture": "./proj2.gif",
-    "link": ""
+    "link": "",
+    "git": ""
   }
 ]

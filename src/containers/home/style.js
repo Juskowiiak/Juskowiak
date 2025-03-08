@@ -1,7 +1,7 @@
 import styled from "styled-components";
 //importar files
 import "../../Style/cores.css";
-
+import breakpoints from "../../Style/breakpoints";
 export const Container = styled.div`
   width: 100%;
   height: 97vh;
@@ -18,4 +18,7 @@ export const HomePage = styled.div`
   position: relative;
   background-color: #ffffff;
   z-index: 1;
+  @media ${breakpoints.s} {
+    overflow-y: scroll;
+  }
 `;

@@ -58,19 +58,20 @@ export const Container = styled.div`
       height: 50px;
       margin-bottom: 2rem;
     }
+
     ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
       width: 100%;
-      li {
+      .opcao {
         font-family: monospace;
         transition: 0.5s;
         font-size: 1rem;
         padding-block: 0.9rem;
         width: 100%;
         position: relative;
-        a {
+        .opcaoLink {
           color: #fff;
           display: flex;
           align-items: center;
@@ -113,6 +114,28 @@ export const Container = styled.div`
       transition: 0.5s;
       &:hover {
         color: var(--cor-dark7);
+      }
+    }
+    .contato {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 10%;
+      justify-content: center;
+      margin-top: 0.8rem;
+      .contatoLink {
+        margin: 0;
+        height: 100%;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+          color: orange;
+        }
       }
     }
     &::after {

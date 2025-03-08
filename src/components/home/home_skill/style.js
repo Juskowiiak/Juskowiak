@@ -35,6 +35,7 @@ export const Container = styled.ul`
     align-items: center;
     padding-left: 0;
     height: 25%;
+    border: 1px solid green;
   }
 `;
 
@@ -166,7 +167,7 @@ export const Skills = styled.ul`
   }
   @media ${breakpoints.s} {
     overflow-x: scroll;
-    padding-block: 10px 15px;
+    padding-block: 10px 5px;
     padding-inline: 10px;
     width: 90%;
   }

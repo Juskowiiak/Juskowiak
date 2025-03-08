@@ -13,7 +13,7 @@ export const Container = styled.ul`
   align-items: center;
   gap: 12rem;
   overflow-y: scroll;
-  padding-block: 4rem;
+  padding-block: 4rem 6rem;
   transition: 0.5s;
   background: radial-gradient(
     circle,
@@ -62,30 +62,43 @@ export const Container = styled.ul`
       flex-direction: column;
       gap: 30px;
       .info {
-        a {
+        .card-nome {
+          border: 1px solid red;
           display: inline-flex;
           align-items: center;
-          gap: 10px;
-          transition: 0.7s;
-          color: var(--cor-dark10);
           margin-bottom: 2rem;
-          border: 1px solid var(--cor-dark1);
-          padding: 0.5rem;
           background-color: var(--cor-dark2);
-          .card-nome {
+          border: 1px solid var(--cor-dark1);
+          transition: 0.7s;
+          padding: 0.5rem;
+          gap: 20px;
+          .card-nomeWeb {
+            display: flex;
             font-size: 1.5rem;
             font-family: monospace;
             text-shadow: 1px 1px 1px #000;
             letter-spacing: 1.2px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+          }
+          .card-nomeGit {
+            display: flex;
+            align-items: center;
+          }
+          a {
+            color: var(--cor-dark10);
+            font-size: 1.2rem;
             @media ${breakpoints.s} {
               font-size: 1.2rem;
             }
-          }
 
-          &:hover {
-            color: rgb(240, 192, 60);
+            &:hover {
+              color: rgb(240, 192, 60);
+            }
           }
         }
+
         .card-titulo {
           margin-bottom: 0.5rem;
           text-decoration: underline;
@@ -132,7 +145,6 @@ export const Container = styled.ul`
       flex-direction: column;
       align-items: center;
       text-align: center;
-
       width: 90%;
     }
   }
