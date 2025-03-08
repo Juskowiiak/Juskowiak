@@ -1,6 +1,6 @@
 import { Container } from "./style";
 //importar picture
-import Main from "../../../assets/sobre/main.png";
+import Main from "../../../assets/sobre/menu.png";
 import Web from "../../../assets/sobre/web.png";
 import Target from "../../../assets/sobre/target.png";
 export default function SobreInfo() {

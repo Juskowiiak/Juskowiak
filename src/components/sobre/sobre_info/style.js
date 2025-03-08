@@ -40,11 +40,10 @@ export const Container = styled.div`
     transition: 0.5s;
     border: 1px solid blue;
     @media ${breakpoints.s} {
-      min-width: 210px !important;
-      max-width: 220px;
+      height: 40%;
+      min-width: auto;
       img {
-        width: 110%;
-        height: 110%;
+        border: 1px solid red;
       }
     }
   }
@@ -75,8 +74,8 @@ export const Container = styled.div`
     @media ${breakpoints.m} {
       font-size: 1rem;
     }
-    @media ${breakpoints.xs} {
-      font-size: 0.8rem;
+    @media ${breakpoints.s} {
+      font-size: 0.9rem;
     }
   }
   @media ${breakpoints.ml} {
