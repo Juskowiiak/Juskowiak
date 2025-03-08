@@ -17,7 +17,6 @@ export const Container = styled.div`
     }
     @media ${breakpoints.xs} {
       font-size: 1.8rem;
-      margin-bottom: 10rem;
     }
   }
 `;
@@ -95,5 +94,6 @@ export const Works = styled.ul`
   }
   @media ${breakpoints.s} {
     gap: 100px 30px;
+    margin-bottom: 4rem;
   }
 `;

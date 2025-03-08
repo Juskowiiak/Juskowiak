@@ -40,7 +40,7 @@ export default function Navegador() {
             </Link>
           </li>
           <li onClick={() => fecharMenu()} title="PROJETOS">
-            <Link to="/projeto">
+            <Link to="/projetos">
               <GrProjects /> PROJETOS
             </Link>
           </li>
