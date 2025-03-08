@@ -96,5 +96,6 @@ export const Container = styled.ul`
     flex-direction: column-reverse;
     width: 100%;
     height: 75%;
+    border: 1px solid red;
   }
 `;

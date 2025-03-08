@@ -35,6 +35,7 @@ export const Container = styled.ul`
     align-items: center;
     padding-left: 0;
     height: 25%;
+    border: 1px solid blue;
   }
 `;
 
