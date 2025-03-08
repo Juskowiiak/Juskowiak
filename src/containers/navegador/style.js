@@ -40,8 +40,8 @@ export const Container = styled.div`
   #second {
     position: relative;
     z-index: -1;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 48%;
     transform: translate(-50%, -50%);
     width: 300px;
     transition: 0.5s;

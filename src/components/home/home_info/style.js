@@ -12,6 +12,7 @@ export const Container = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
+
   .text {
     width: 70%;
     h2 {
@@ -24,7 +25,7 @@ export const Container = styled.ul`
       }
       @media ${breakpoints.ml} {
         font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
       @media ${breakpoints.m} {
         font-size: 1.7rem;
@@ -58,9 +59,7 @@ export const Container = styled.ul`
         width: 100%;
         font-size: 1.1rem;
       }
-      @media ${breakpoints.m} {
-        font-size: 0.9rem;
-      }
+
       @media ${breakpoints.xs} {
         font-size: 0.7rem;
         line-height: 1rem;
@@ -83,6 +82,10 @@ export const Container = styled.ul`
     min-width: 220px;
     height: 230px;
     border: 1px solid cyan;
+    @media ${breakpoints.ml} {
+      height: 30%;
+      min-width: auto;
+    }
     @media ${breakpoints.s} {
       height: 190px;
       min-width: 180px;
@@ -92,5 +95,6 @@ export const Container = styled.ul`
     justify-content: space-evenly;
     flex-direction: column-reverse;
     width: 100%;
+    height: 75%;
   }
 `;

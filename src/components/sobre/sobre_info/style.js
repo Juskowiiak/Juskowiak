@@ -8,7 +8,7 @@ export const Container = styled.div`
   height: 80vh;
   padding-top: 6.5vh;
   position: relative;
-  background: linear-gradient(180deg, var(--cor-dark1), var(--cor-dark4) 74%);
+  background: linear-gradient(180deg, #000, var(--cor-dark6) 89%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -83,7 +83,7 @@ export const Container = styled.div`
     padding-top: 0;
     @media ${breakpoints.s} {
       justify-content: center;
-      gap: 24px;
+      gap: 30px;
     }
   }
 `;

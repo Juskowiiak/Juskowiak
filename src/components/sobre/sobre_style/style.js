@@ -1,7 +1,6 @@
 import styled from "styled-components";
 //import files
 import "../../../Style/cores.css";
-import Breakpoints from "../../../Style/breakpoints";
 import breakpoints from "../../../Style/breakpoints";
 export const Container = styled.div`
   width: 100%;

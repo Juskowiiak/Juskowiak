@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+//importar files
+import breakpoints from "../../Style/breakpoints";
 export const Container = styled.div`
   width: 100%;
   height: 97vh;
@@ -10,7 +11,7 @@ export const Container = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (max-width: 430px) {
-    border: 2px solid red;
+  @media ${breakpoints.s} {
+    padding-bottom: 4rem;
   }
 `;

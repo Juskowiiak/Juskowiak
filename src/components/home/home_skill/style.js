@@ -23,17 +23,6 @@ export const Container = styled.ul`
   justify-content: start;
   padding-left: 8%;
 
-  /*
-    &::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 30%;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(180deg, transparent 5%, var(--cor-dark3) 100%);
-  }
-  */
   h5 {
     color: var(--cor-dark3);
     font-family: monospace;
@@ -41,15 +30,18 @@ export const Container = styled.ul`
     margin-left: 5px;
   }
   @media ${breakpoints.ml} {
-    justify-content: start;
+    justify-content: center;
+    gap: 10px;
     align-items: center;
     padding-left: 0;
+    height: 25%;
   }
 `;
 
 export const Skills = styled.ul`
   display: flex;
   gap: 20px;
+
   li {
     position: relative;
     height: 55px;
