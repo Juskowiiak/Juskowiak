@@ -3,9 +3,9 @@
     "id": 0,
     "nome": "LaFamilia",
     "titulo": "Tokio School - Projeto Final",
-    "descricao": "O nosso cliente é um restaurante de vanguarda recentemente aberto que precisa de criar uma imagem de marca importante na Internet. Disseram-nos que o que procuravam era um website onde o cliente ficaria cativado pelas imagens dos seus pratos, mostrando modernidade e classe.",
+    "descricao": "O nosso cliente é um restaurante de vanguarda recentemente aberto, que precisa de criar uma imagem de marca importante na Internet. Disseram-nos que o que procuravam era um website onde o cliente ficaria cativado pelas imagens dos seus pratos, mostrando modernidade e classe.",
     "estado": "Completo",
-    "cor": "green",
+    "cor": "greenyellow",
     "picture": "./proj1.gif",
     "link": "https://restaurantlafamilia.netlify.app/"
   },

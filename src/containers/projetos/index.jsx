@@ -2,6 +2,7 @@ import { Container } from "./style";
 //importar icons
 import { FaSquareFull } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import { PiSmileyXEyesFill } from "react-icons/pi";
 //importar Api
 import Obras from "../../Api/projeto.json";
 export default function Projetos() {

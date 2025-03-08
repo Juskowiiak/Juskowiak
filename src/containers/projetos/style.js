@@ -11,17 +11,16 @@ export const Container = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10rem;
+  gap: 12rem;
   overflow-y: scroll;
-  padding-block: 4rem 2rem;
+  padding-block: 4rem;
   transition: 0.5s;
   background: radial-gradient(
     circle,
-    var(--cor-dark7) 13%,
-    var(--cor-dark4) 100%
+    var(--cor-dark10) 13%,
+    var(--cor-dark2) 88%
   );
   .card {
-    border: 1px solid blue;
     width: 80%;
     position: relative;
     padding: 1.5rem 0.5rem 0.8rem 0.5rem;
@@ -29,6 +28,9 @@ export const Container = styled.ul`
     justify-content: space-evenly;
     gap: 10%;
     transition: 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
     &::after {
       position: absolute;
       content: "";
@@ -41,45 +43,64 @@ export const Container = styled.ul`
       background-color: var(--cor-dark5);
     }
     .picture {
-      border: 1px solid cyan;
       height: 240px;
       min-width: 260px;
       max-width: 260px;
-      box-shadow: 2px 2px 3px var(--cor-dark3);
+      box-shadow: 3px 3px 3px var(--cor-dark3);
+      border-radius: 5px;
+      overflow: hidden;
+      transition: 0.5s;
+      @media ${breakpoints.s} {
+        min-width: 230px;
+        max-width: 230px;
+        height: 230px;
+      }
     }
     .text {
-      border: 1px solid green;
       padding-top: 2rem;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 30px;
       .info {
         a {
-          display: flex;
+          display: inline-flex;
           align-items: center;
           gap: 10px;
           transition: 0.7s;
           color: var(--cor-dark10);
           margin-bottom: 2rem;
+          border: 1px solid var(--cor-dark1);
+          padding: 0.5rem;
+          background-color: var(--cor-dark2);
           .card-nome {
             font-size: 1.5rem;
             font-family: monospace;
             text-shadow: 1px 1px 1px #000;
             letter-spacing: 1.2px;
+            @media ${breakpoints.s} {
+              font-size: 1.2rem;
+            }
           }
 
           &:hover {
-            color: var(--cor-dark2);
+            color: rgb(240, 192, 60);
           }
         }
         .card-titulo {
           margin-bottom: 0.5rem;
           text-decoration: underline;
+          @media ${breakpoints.ml} {
+            margin-bottom: 1rem;
+          }
         }
         .card-descricao {
           font-family: monospace;
           font-size: 1rem;
           color: var(--cor-dark1);
+          @media ${breakpoints.s} {
+            font-size: 0.9rem;
+            padding-inline: 0.3rem;
+          }
         }
       }
       .estado {
@@ -88,7 +109,6 @@ export const Container = styled.ul`
         gap: 5px;
         font-weight: bold;
         font-family: monospace;
-
         color: var(--cor-dark1);
         .i {
           width: 8px;
@@ -101,9 +121,19 @@ export const Container = styled.ul`
     }
     @media ${breakpoints.ml} {
       flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 90%;
     }
   }
   .card:nth-child(2) {
     flex-direction: row-reverse;
+    @media ${breakpoints.ml} {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      width: 90%;
+    }
   }
 `;
