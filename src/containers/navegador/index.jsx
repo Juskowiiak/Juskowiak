@@ -10,7 +10,7 @@ import { TbBrandLinkedin } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
 //importar imagem
-import picture from "../../assets/home/menu.png";
+import picture from "../../assets/home/menu2.png";
 import { Link } from "react-router-dom";
 export default function Navegador() {
   //abre e fecha menu
@@ -34,7 +34,7 @@ export default function Navegador() {
       {/* se showMenu for true, é atribuido a class active */}
       <div id="second" className={showMenu ? "active" : ""}>
         <div className="picture">
-          <img src={picture} />
+          <img src={picture} title="Juskowiak Afonso" />
         </div>
         <ul>
           <li onClick={() => fecharMenu()} title="HOMEPAGE" className="opcao">
