@@ -34,7 +34,7 @@ export default function Navegador() {
       {/* se showMenu for true, é atribuido a class active */}
       <div id="second" className={showMenu ? "active" : ""}>
         <div className="picture">
-          <img src="#" />
+          <img src={picture} />
         </div>
         <ul>
           <li onClick={() => fecharMenu()} title="HOMEPAGE" className="opcao">

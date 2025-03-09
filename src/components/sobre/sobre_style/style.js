@@ -95,6 +95,7 @@ export const Works = styled.ul`
         font-weight: bold;
         font-family: monospace;
         color: var(--cor-dark1);
+        font-size: 10px;
         .i {
           font-size: 8px;
         }

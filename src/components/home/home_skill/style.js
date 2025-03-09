@@ -85,10 +85,6 @@ export const Skills = styled.ul`
       background-size: 50% 65%;
       margin-block: 0;
     }
-    @media ${breakpoints.s} {
-      height: 30px;
-      min-width: 40px;
-    }
   }
   li:first-child {
     background-image: url("${pict1}");
