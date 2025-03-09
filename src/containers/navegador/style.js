@@ -54,7 +54,7 @@ export const Container = styled.div`
     border: 2px solid #000;
     opacity: 0;
     .picture {
-      min-width: auto;
+      min-width: 40px;
       height: 50px;
       margin-bottom: 2rem;
     }
