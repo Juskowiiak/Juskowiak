@@ -17,8 +17,8 @@ export const Container = styled.ul`
   transition: 0.5s;
   background: radial-gradient(
     circle,
-    var(--cor-dark10) 13%,
-    var(--cor-dark2) 88%
+    rgb(214, 214, 214) 13%,
+    var(--cor-dark6) 83%
   );
   .card {
     width: 80%;
@@ -43,9 +43,9 @@ export const Container = styled.ul`
       background-color: var(--cor-dark5);
     }
     .picture {
-      height: 240px;
-      min-width: 260px;
-      max-width: 260px;
+      height: 230px;
+      min-width: 280px;
+      max-width: 280px;
       box-shadow: 3px 3px 3px var(--cor-dark3);
       border-radius: 5px;
       overflow: hidden;
@@ -102,6 +102,7 @@ export const Container = styled.ul`
         .card-titulo {
           margin-bottom: 0.5rem;
           text-decoration: underline;
+          color: rgb(46, 46, 45);
           @media ${breakpoints.ml} {
             margin-bottom: 1rem;
           }

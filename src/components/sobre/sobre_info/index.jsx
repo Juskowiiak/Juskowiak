@@ -21,7 +21,7 @@ export default function SobreInfo() {
         </li>
         <li>
           <span>A</span> minha meta <img src={Target} className="i" /> ? Por
-          enquanto... aumentar a minha experiência para criar projetos cada vez
+          enquanto... aumentar a minha experiência e criar projetos cada vez
           melhores.
         </li>
       </ul>

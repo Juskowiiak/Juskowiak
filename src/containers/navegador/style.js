@@ -55,6 +55,7 @@ export const Container = styled.div`
     opacity: 0;
     .picture {
       min-width: 40px;
+      max-width: 40px;
       height: 50px;
       margin-bottom: 2rem;
     }
