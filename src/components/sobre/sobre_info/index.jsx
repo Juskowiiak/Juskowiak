@@ -20,8 +20,9 @@ export default function SobreInfo() {
           pouco.
         </li>
         <li>
-          <span>A</span> minha meta <img src={Target} className="i" /> ? Ser um
-          grande Dev com boas capacidades técnicas e de liderança.
+          <span>A</span> minha meta <img src={Target} className="i" /> ? Por
+          enquanto... aumentar a minha experiência para criar projetos cada vez
+          melhores.
         </li>
       </ul>
       <div className="picture">

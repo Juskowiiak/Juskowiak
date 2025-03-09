@@ -3,9 +3,12 @@
     "id": 0,
     "pic": "/pc1.png",
     "nome": "GrandHotel",
+    "estado": "Em construção",
+    "cor": "orange",
     "lista": [
       { "id": 0, "pic": "./log1.png" },
-      { "id": 1, "pic": "./log4.png" }
+      { "id": 1, "pic": "./log4.png" },
+      { "id": 2, "pic": "./log2.png" }
     ],
     "link": "https://grandhouse.netlify.app/"
   },
@@ -13,6 +16,8 @@
     "id": 1,
     "pic": "/pc2.png",
     "nome": "EldineidaNeves",
+    "estado": "Em construção",
+    "cor": "orange",
     "lista": [
       { "id": 0, "pic": "./log1.png" },
       { "id": 1, "pic": "./log3.png" }
@@ -23,9 +28,11 @@
     "id": 2,
     "pic": "/pc3.png",
     "nome": "KatyBraids",
+    "estado": "Completo",
+    "cor": "greenyellow",
     "lista": [
       { "id": 0, "pic": "./log1.png" },
-      { "id": 1, "pic": "./log3.png" },
+      { "id": 1, "pic": "./log4.png" },
       { "id": 2, "pic": "./log5.png" }
     ],
     "link": "https://katybraids.com/"

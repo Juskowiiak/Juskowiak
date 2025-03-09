@@ -49,7 +49,8 @@ export const Works = styled.ul`
         align-items: center;
         justify-content: center;
         gap: 5px;
-
+        align-items: center;
+        margin-bottom: 0.5rem;
         h4 {
           text-align: center;
           font-family: monospace;
@@ -57,8 +58,9 @@ export const Works = styled.ul`
           letter-spacing: 1px;
           font-size: 1.3rem;
           transition: 0.5s;
+
           &:hover {
-            color: blue;
+            color: orange;
           }
         }
         .i {
@@ -67,11 +69,12 @@ export const Works = styled.ul`
         }
       }
 
-      ul {
+      .listaSkill {
         display: flex;
         justify-content: center;
         gap: 15px;
-        li {
+
+        .listaSkill-card {
           height: 35px;
           width: 35px;
           border-radius: 50%;
@@ -82,6 +85,18 @@ export const Works = styled.ul`
             width: 80%;
             height: 80%;
           }
+        }
+      }
+      .estado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-weight: bold;
+        font-family: monospace;
+        color: var(--cor-dark1);
+        .i {
+          font-size: 8px;
         }
       }
     }

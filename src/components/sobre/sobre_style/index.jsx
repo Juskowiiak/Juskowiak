@@ -3,6 +3,7 @@ import { Container, Works } from "./style";
 import File from "../../../Api/trabalhos.json";
 //importar icon
 import { GoLinkExternal } from "react-icons/go";
+import { FaSquareFull } from "react-icons/fa";
 export default function SobreStyle() {
   return (
     <Container>
@@ -20,13 +21,17 @@ export default function SobreStyle() {
                   <GoLinkExternal className="i" />
                 </a>
 
-                <ul>
+                <ul className="listaSkill">
                   {item.lista.map((i) => (
-                    <li key={i.id}>
+                    <li key={i.id} className="listaSkill-card">
                       <img src={i.pic} />
                     </li>
                   ))}
                 </ul>
+                <div className="estado">
+                  <FaSquareFull className="i" style={{ color: item.cor }} />
+                  <p>{item.estado}</p>
+                </div>
               </div>
             </li>
           ))}
