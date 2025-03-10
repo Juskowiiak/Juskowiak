@@ -23,9 +23,9 @@
   },
   {
     "id": 2,
-    "nome": "CarGarage",
-    "titulo": "Compra&Vendas",
-    "descricao": "Sem informação por enquanto",
+    "nome": "QuizGame",
+    "titulo": "Perguntas&Respostas",
+    "descricao": "Criar Conta / 3 Niveis de Dificuldade / Ranking /Instruçoes etc...",
     "estado": "Parado",
     "cor": "red",
     "picture": "./proj2.gif",
