@@ -28,6 +28,7 @@ export const Container = styled.ul`
     font-family: monospace;
     letter-spacing: 1.1px;
     margin-left: 5px;
+    font-weight: bold;
   }
   @media ${breakpoints.ml} {
     justify-content: center;

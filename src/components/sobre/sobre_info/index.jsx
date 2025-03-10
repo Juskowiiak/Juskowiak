@@ -8,16 +8,16 @@ export default function SobreInfo() {
     <Container>
       <ul className="text">
         <li>
-          <span>As</span> pessoas tratam-me por Afonso, tenho 28 anos, o meu
-          interesse pela informatica surgiu aos 15 quando obtive o meu 1º
-          computador, sempre tive aquela curiosidade em saber como os jogos
-          trabalhavam por trás daqueles códigos <img src={Web} className="i" />.
+          <span>As</span> pessoas tratam-me por Afonso, 28 anos, o interesse
+          pela informatica surgiu desde cedo, sempre tive aquela curiosidade em
+          saber como os jogos e aplicações trabalhavam por trás daqueles códigos{" "}
+          <img src={Web} className="i" />.
         </li>
         <li>
           <span>O </span>meu primeiro contato com a programação foi na escola,
-          aonde aprendi o básico de C++ e PHP, mas o que realmente chamou-me
-          atenção foi o FrontEnd, gostava de saber o que estava a fazer pouco a
-          pouco.
+          onde aprendi o básico de C++ e PHP, mas o que realmente chamou-me
+          atenção foi o FrontEnd, gostava de visualizar o meu progresso e
+          resultados de forma mais rápida.
         </li>
         <li>
           <span>A</span> minha meta <img src={Target} className="i" /> ? Por

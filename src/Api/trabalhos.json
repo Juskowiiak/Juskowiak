@@ -6,9 +6,9 @@
     "estado": "Em construção",
     "cor": "orange",
     "lista": [
-      { "id": 0, "pic": "./log1.png" },
-      { "id": 1, "pic": "./log4.png" },
-      { "id": 2, "pic": "./log2.png" }
+      { "id": 0, "pic": "./log1.png", "title": "Javascript" },
+      { "id": 1, "pic": "./log4.png", "title": "React" },
+      { "id": 2, "pic": "./log2.png", "title": "Sass" }
     ],
     "link": "https://grandhouse.netlify.app/"
   },
@@ -19,8 +19,8 @@
     "estado": "Em construção",
     "cor": "orange",
     "lista": [
-      { "id": 0, "pic": "./log1.png" },
-      { "id": 1, "pic": "./log3.png" }
+      { "id": 0, "pic": "./log1.png", "title": "Javascript" },
+      { "id": 1, "pic": "./log3.png", "title": "Bootstrap" }
     ],
     "link": "https://tstn.netlify.app/"
   },
@@ -31,9 +31,9 @@
     "estado": "Completo",
     "cor": "greenyellow",
     "lista": [
-      { "id": 0, "pic": "./log1.png" },
-      { "id": 1, "pic": "./log4.png" },
-      { "id": 2, "pic": "./log5.png" }
+      { "id": 0, "pic": "./log1.png", "title": "Javascript" },
+      { "id": 1, "pic": "./log4.png", "title": "React" },
+      { "id": 2, "pic": "./log5.png", "title": "StyledComponents" }
     ],
     "link": "https://katybraids.com/"
   }

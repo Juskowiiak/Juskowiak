@@ -12,8 +12,9 @@ export default function HomeInfo() {
         </h2>{" "}
         <p>
           Boas <img src={Hand} className="i" />, chamo-me Juskowiak Afonso, um
-          Dev que usa a sua <span>Curiosidade</span> e a multiplica pela sua{" "}
-          <span>Criatividade</span> que resulta em projetos incriveis.
+          Dev que usa a sua <span>Curiosidade</span> e
+          <span> Criatividade </span>
+          para a contrução de projetos incriveis.
         </p>
       </div>
       <div className="picture">

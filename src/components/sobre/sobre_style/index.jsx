@@ -24,7 +24,7 @@ export default function SobreStyle() {
                 <ul className="listaSkill">
                   {item.lista.map((i) => (
                     <li key={i.id} className="listaSkill-card">
-                      <img src={i.pic} />
+                      <img src={i.pic} title={i.title} />
                     </li>
                   ))}
                 </ul>
