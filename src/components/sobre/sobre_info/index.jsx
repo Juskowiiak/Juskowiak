@@ -14,10 +14,10 @@ export default function SobreInfo() {
           <img src={Web} className="i" />.
         </li>
         <li>
-          <span>O </span>meu primeiro contato com a programação foi na escola,
-          onde aprendi o básico de C++ e PHP, mas o que realmente chamou-me
-          atenção foi o FrontEnd, gostava de visualizar o meu progresso e
-          resultados de forma mais rápida.
+          <span>O </span> primeiro contato com a programação foi na escola, onde
+          aprendi o básico de C++ e PHP, mas o que realmente chamou-me atenção
+          foi o FrontEnd, gostava de visualizar o meu progresso e resultados de
+          forma mais rápida.
         </li>
         <li>
           <span>A</span> minha meta <img src={Target} className="i" /> ? Por

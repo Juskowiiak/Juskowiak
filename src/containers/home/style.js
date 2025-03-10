@@ -9,6 +9,10 @@ export const Container = styled.div`
   display: flex;
   gap: 10px;
   overflow: hidden;
+  @media (orientation: landscape) {
+    border: 2px solid red;
+    height: 200vh;
+  }
 `;
 
 export const HomePage = styled.div`
