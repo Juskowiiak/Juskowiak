@@ -9,15 +9,21 @@ export default function HomeTela() {
   useEffect(() => {
     const dados = sessionStorage.getItem("dado");
 
+    //se o sessionStorage estiver vazio, recebe um dado novo
     if (dados == null) {
       sessionStorage.setItem("dado", 1);
+      //quando passar 3 segundos a tela recebe display none
+      setTimeout(() => {
+        setTela(false);
+      }, 4000);
     } else {
+      //caso voltemos a pagina Home, a tela já não aparece, porque tem dados dentro do session storage
       setTela(false);
     }
   }, []);
-  //style={{ display: tela ? "flex" : "none" }}
+  //
   return (
-    <Container>
+    <Container style={{ display: tela ? "flex" : "none" }}>
       <div className="picture">
         <img src={picture} />
       </div>

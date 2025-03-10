@@ -3,11 +3,10 @@ import styled from "styled-components";
 import "../../../Style/cores.css";
 import breakpoints from "../../../Style/breakpoints";
 export const Container = styled.div`
-  border: 1px solid red;
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: var(--cor-dark3);
+  background-color: var(--cor-dark2);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
