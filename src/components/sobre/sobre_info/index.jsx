@@ -8,15 +8,15 @@ export default function SobreInfo() {
     <Container>
       <ul className="text">
         <li>
-          <span>As</span> pessoas tratam-me por Afonso, 28 anos, o interesse
-          pela informatica surgiu desde cedo, sempre tive aquela curiosidade em
-          saber como os jogos e aplicações trabalhavam por trás daqueles códigos{" "}
+          <span>T</span>ratam-me por Afonso, 28 anos, o interesse pela
+          informatica surgiu desde cedo, sempre tive aquela curiosidade em saber
+          como os jogos e aplicações trabalhavam por trás daqueles códigos{" "}
           <img src={Web} className="i" />.
         </li>
         <li>
           <span>O </span> primeiro contato com a programação foi na escola, onde
-          aprendi o básico de C++ e PHP, mas o que realmente chamou-me atenção
-          foi o FrontEnd, gostava de visualizar o meu progresso e resultados de
+          aprendi o básico de Backend, mas o FrontEnd chamou-me mais atenção
+          pelo facto de conseguir visualizar o meu progresso e resultados de
           forma mais rápida.
         </li>
         <li>

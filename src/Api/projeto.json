@@ -14,7 +14,7 @@
     "id": 1,
     "nome": "AfonsoTips",
     "titulo": "VideoAulas",
-    "descricao": "Será um Website com aulas de React, aonde dou algumas dicas para quem está a começar agora.",
+    "descricao": "Será um Website com aulas de React/Javascript, aonde irei dar algumas dicas para quem está a começar agora. Irei adicionar um video todas semana",
     "estado": "Em construção",
     "cor": "orange",
     "picture": "./proj2.gif",
