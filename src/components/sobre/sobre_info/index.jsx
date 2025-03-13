@@ -15,9 +15,10 @@ export default function SobreInfo() {
         </li>
         <li>
           <span>O </span> primeiro contato com a programação foi na escola, onde
-          aprendi o básico de Backend, mas o FrontEnd chamou-me mais atenção
-          pelo facto de conseguir visualizar o meu progresso e resultados de
-          forma mais rápida.
+          aprendi o básico de Backend, mas o{" "}
+          <span className="front">FrontEnd</span> chamou-me mais atenção pelo
+          facto de conseguir visualizar o meu progresso e resultados de forma
+          mais rápida.
         </li>
         <li>
           <span>A</span> minha meta <img src={Target} className="i" /> ? Por

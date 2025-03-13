@@ -58,6 +58,11 @@ export const Container = styled.div`
       color: var(--cor-dark9);
       font-size: 1.25rem;
     }
+    .front {
+      text-decoration: underline;
+
+      color: var(--cor-dark8);
+    }
     .i {
       width: 20px;
       height: auto;
