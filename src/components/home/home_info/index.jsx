@@ -1,6 +1,7 @@
 import { Container } from "./style";
 //importar pictures
 import Hand from "../../../assets/home/hand.png";
+import Eu from "../../../assets/home/eu.gif";
 export default function HomeInfo() {
   return (
     <Container>
@@ -18,7 +19,7 @@ export default function HomeInfo() {
         </p>
       </div>
       <div className="picture">
-        <img src="#" />
+        <img src={Eu} />
       </div>
     </Container>
   );

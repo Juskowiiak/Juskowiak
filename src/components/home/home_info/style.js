@@ -82,9 +82,9 @@ export const Container = styled.ul`
   .picture {
     min-width: 220px;
     height: 230px;
-    border: 1px solid cyan;
+
     @media ${breakpoints.ml} {
-      height: 30%;
+      height: 40%;
       min-width: auto;
     }
     @media ${breakpoints.s} {
