@@ -90,7 +90,7 @@ export const Container = styled.ul`
     @media ${breakpoints.s} {
       height: 210px;
       min-width: auto !important;
-      border: 1px solid red;
+
       img {
         object-fit: contain;
       }
