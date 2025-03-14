@@ -89,7 +89,11 @@ export const Container = styled.ul`
     }
     @media ${breakpoints.s} {
       height: 190px;
-      min-width: 180px;
+      min-width: auto !important;
+      border: 1px solid red;
+      img {
+        object-fit: contain;
+      }
     }
   }
   @media ${breakpoints.ml} {
