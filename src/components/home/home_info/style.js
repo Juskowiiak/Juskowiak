@@ -88,7 +88,7 @@ export const Container = styled.ul`
       min-width: auto;
     }
     @media ${breakpoints.s} {
-      height: 190px;
+      height: 210px;
       min-width: auto !important;
       border: 1px solid red;
       img {
