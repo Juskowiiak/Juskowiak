@@ -60,7 +60,6 @@ export const Container = styled.div`
     }
     .front {
       text-decoration: underline;
-
       color: var(--cor-dark8);
     }
     .i {

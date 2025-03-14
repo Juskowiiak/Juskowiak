@@ -2,7 +2,6 @@ import { Container, Works } from "./style";
 //importar file
 import File from "../../../Api/trabalhos.json";
 //importar icon
-import { GoLinkExternal } from "react-icons/go";
 import { FaSquareFull } from "react-icons/fa";
 export default function SobreStyle() {
   return (
@@ -17,8 +16,8 @@ export default function SobreStyle() {
               </div>
               <div className="info">
                 <a href={item.link} target="_blank">
+                  <img src={item.logo} className="logo" title={item.nome} />
                   <h4>{item.nome}</h4>
-                  <GoLinkExternal className="i" />
                 </a>
 
                 <ul className="listaSkill">

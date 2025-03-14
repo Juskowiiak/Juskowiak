@@ -37,7 +37,14 @@ export default function Projetos() {
                 </div>
 
                 <h5 className="card-titulo">{item.titulo}</h5>
-                <p className="card-descricao">{item.descricao}</p>
+                <div className="card-descricao">
+                  <p>
+                    {item.descricao1}{" "}
+                    <span className="autor">{item.autor}</span>
+                  </p>
+                  <p>{item.descricao2}</p>
+                  <p>{item.descricao3}</p>
+                </div>
               </div>
               <div className="estado">
                 <FaSquareFull className="i" style={{ color: item.cor }} />

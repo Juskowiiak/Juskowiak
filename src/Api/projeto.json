@@ -3,33 +3,42 @@
     "id": 0,
     "nome": "LaFamilia",
     "titulo": "Tokio School - Projeto Final",
-    "descricao": "O nosso cliente é um restaurante de vanguarda recentemente aberto, que precisa de criar uma imagem de marca importante na Internet. Disseram-nos que o que procuravam era um website onde o cliente ficaria cativado pelas imagens dos seus pratos, mostrando modernidade e classe.",
+    "descricao1": "Para conclusão do módulo final, teriamos que colocar em prática os conhecimentos adquiridos ao longo do modulo.",
+    "descricao2": "Escolhi o tema Restaurante, onde o cliente precisava criar uma marca para o seu restaurante recentemente aberto.",
+    "descricao3": "E procurava um Website onde o cliente ficaria cativado pelas imagens dos pratos, mostrando modernida e classe.",
     "estado": "Completo",
     "cor": "greenyellow",
     "picture": "./proj1.gif",
     "link": "https://restaurantlafamilia.netlify.app/",
-    "git": "https://github.com/Juskowiiak/Projeto_LaFamilia"
+    "git": "https://github.com/Juskowiiak/Projeto_LaFamilia",
+    "autor": ""
   },
   {
     "id": 1,
     "nome": "AfonsoTips",
     "titulo": "VideoAulas",
-    "descricao": "Será um Website com aulas de React/Javascript, aonde irei dar algumas dicas para quem está a começar agora. Irei adicionar um video todas semana",
+    "descricao1": "Ninguém sabe tanto que não tenha o que aprender e ninguém sabe tão pouco que não tenha o que ensinar",
+    "descricao2": "De tanto consumir conteudo, acho que está na hora da contribuição ahaha, nesta página irei dar uma pequena ajuda para aqueles que estão a começar agora.",
+    "descricao3": "Tentarei colocar 1 video por semana, além do video também deixei um ficheiro pdf com o resumo do mesmo.",
     "estado": "Em construção",
     "cor": "orange",
     "picture": "./proj2.gif",
-    "link": "#",
-    "git": "#"
+    "link": "https://afonsotips.netlify.app/",
+    "git": "https://github.com/Juskowiiak/AfonsoTips",
+    "autor": "-Blaise Pascal"
   },
   {
     "id": 2,
     "nome": "QuizGame",
     "titulo": "Perguntas&Respostas",
-    "descricao": "Criar Conta / 3 Niveis de Dificuldade / Ranking /Instruçoes etc...",
+    "descricao1": "O utilizador terá de registrar o seu nome, poderá escolher entre 3 niveis de dificuldade, acesso ao ranking...",
+    "descricao2": "",
+    "descricao3": "",
     "estado": "Parado",
     "cor": "red",
-    "picture": "./proj2.gif",
+    "picture": "./proj0.gif",
     "link": "#",
-    "git": "#"
+    "git": "#",
+    "autor": ""
   }
 ]

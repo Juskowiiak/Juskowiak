@@ -63,6 +63,10 @@ export const Works = styled.ul`
             color: orange;
           }
         }
+        .logo {
+          height: 32px;
+          width: auto;
+        }
         .i {
           font-size: 1rem;
           color: var(--cor-dark3);

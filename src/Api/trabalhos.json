@@ -2,7 +2,8 @@
   {
     "id": 0,
     "pic": "/pc1.png",
-    "nome": "GrandHotel",
+    "logo": "/logo3.png",
+    "nome": "GrandHouse",
     "estado": "Em construção",
     "cor": "orange",
     "lista": [
@@ -15,6 +16,7 @@
   {
     "id": 1,
     "pic": "/pc2.png",
+    "logo": "/logo2.png",
     "nome": "EldineidaNeves",
     "estado": "Em construção",
     "cor": "orange",
@@ -27,6 +29,7 @@
   {
     "id": 2,
     "pic": "/pc3.png",
+    "logo": "/logo1.png",
     "nome": "KatyBraids",
     "estado": "Completo",
     "cor": "greenyellow",

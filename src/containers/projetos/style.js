@@ -100,7 +100,7 @@ export const Container = styled.ul`
         }
 
         .card-titulo {
-          margin-bottom: 0.5rem;
+          margin-bottom: 1.5rem;
           text-decoration: underline;
           color: rgb(46, 46, 45);
           @media ${breakpoints.ml} {
@@ -108,9 +108,17 @@ export const Container = styled.ul`
           }
         }
         .card-descricao {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
           font-family: monospace;
           font-size: 1rem;
           color: var(--cor-dark1);
+          .autor {
+            font-weight: bold;
+            font-size: 0.5rem;
+            margin-inline-start: 5px;
+          }
           @media ${breakpoints.s} {
             font-size: 0.9rem;
             padding-inline: 0.3rem;
@@ -133,11 +141,13 @@ export const Container = styled.ul`
         justify-content: center;
       }
     }
+    @media ${breakpoints.l} {
+      width: 90%;
+    }
     @media ${breakpoints.ml} {
       flex-direction: column;
       align-items: center;
       text-align: center;
-      width: 90%;
     }
   }
   .card:nth-child(2) {
