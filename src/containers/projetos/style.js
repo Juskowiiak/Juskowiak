@@ -26,6 +26,7 @@ export const Container = styled.ul`
     padding: 1.5rem 0.5rem 0.8rem 0.5rem;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 10%;
     transition: 0.5s;
     &:hover {
@@ -114,6 +115,7 @@ export const Container = styled.ul`
           font-family: monospace;
           font-size: 1rem;
           color: var(--cor-dark1);
+          line-height: 1.3rem;
           .autor {
             font-weight: bold;
             font-size: 0.5rem;
