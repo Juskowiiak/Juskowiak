@@ -60,6 +60,7 @@ export const Container = styled.ul`
         max-width: 100px;
       }
     }
+
     .text {
       padding-top: 2rem;
       display: flex;
@@ -164,6 +165,19 @@ export const Container = styled.ul`
       align-items: center;
       text-align: center;
       width: 90%;
+    }
+  }
+  .card:last-child {
+    .picture {
+      height: 200px;
+      min-width: 230px;
+      max-width: 230px;
+
+      @media ${breakpoints.s} {
+        height: 200px;
+        min-width: 210px;
+        max-width: 210px;
+      }
     }
   }
   @media ${breakpoints.s} {
