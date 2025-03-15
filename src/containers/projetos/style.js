@@ -42,6 +42,10 @@ export const Container = styled.ul`
       transform: translateX(-50%);
       border-radius: 50%;
       background-color: var(--cor-dark5);
+      @media ${breakpoints.s} {
+        bottom: -10%;
+        width: 60%;
+      }
     }
     .picture {
       height: 250px;
@@ -149,7 +153,8 @@ export const Container = styled.ul`
       flex-direction: column;
       align-items: center;
       text-align: center;
-      gap: 5%;
+    }
+    @media ${breakpoints.s} {
     }
   }
   .card:nth-child(2) {
