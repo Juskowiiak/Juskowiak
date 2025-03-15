@@ -79,8 +79,8 @@ export const Works = styled.ul`
         gap: 15px;
 
         .listaSkill-card {
-          height: 35px;
-          width: 35px;
+          height: 30px;
+          width: 30px;
           border-radius: 50%;
           display: flex;
           justify-content: center;

@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "pic": "/pc1.png",
+    "pic": "/device1.png",
     "logo": "/logo3.png",
     "nome": "GrandHouse",
     "estado": "Em construção",
@@ -15,7 +15,7 @@
   },
   {
     "id": 1,
-    "pic": "/pc2.png",
+    "pic": "/device2.png",
     "logo": "/logo2.png",
     "nome": "EldineidaNeves",
     "estado": "Em construção",
@@ -28,7 +28,7 @@
   },
   {
     "id": 2,
-    "pic": "/pc3.png",
+    "pic": "/device3.png",
     "logo": "/logo1.png",
     "nome": "KatyBraids",
     "estado": "Completo",

@@ -21,7 +21,7 @@ export const Container = styled.ul`
     var(--cor-dark6) 83%
   );
   .card {
-    width: 80%;
+    width: 70%;
     position: relative;
     padding: 1.5rem 0.5rem 0.8rem 0.5rem;
     display: flex;
@@ -44,17 +44,16 @@ export const Container = styled.ul`
       background-color: var(--cor-dark5);
     }
     .picture {
-      height: 230px;
-      min-width: 280px;
-      max-width: 280px;
-      box-shadow: 3px 3px 3px var(--cor-dark3);
+      height: 250px;
+      min-width: 130px;
+      max-width: 130px;
       border-radius: 5px;
       overflow: hidden;
       transition: 0.5s;
       @media ${breakpoints.s} {
-        min-width: 230px;
-        max-width: 230px;
-        height: 230px;
+        height: 260px;
+        min-width: 110px;
+        max-width: 110px;
       }
     }
     .text {
@@ -150,6 +149,7 @@ export const Container = styled.ul`
       flex-direction: column;
       align-items: center;
       text-align: center;
+      gap: 5%;
     }
   }
   .card:nth-child(2) {
@@ -160,5 +160,12 @@ export const Container = styled.ul`
       text-align: center;
       width: 90%;
     }
+  }
+  @media ${breakpoints.s} {
+    background: radial-gradient(
+      circle,
+      rgb(212, 212, 212) 13%,
+      var(--cor-dark7) 83%
+    );
   }
 `;
