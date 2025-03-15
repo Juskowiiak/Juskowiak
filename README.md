@@ -12,7 +12,7 @@
 
 ✅ Criei um Projecto especialmente para o Portfólio onde dou uma pequena ajuda, para aqueles que estão a começar agora
 
-<img align="center" title="Portfolio" src="https://img.shields.io/website?label=AfonsoTips&style=for-the-badge&url=https://afonsotips.netlify.app/"> &nbsp&nbsp
+<img align="center" title="AfonsoTips" src="https://img.shields.io/website?label=AfonsoTips&style=for-the-badge&url=https://afonsotips.netlify.app/"> &nbsp&nbsp
 
 ❌ Devia ter mais cuidado com o uso das cores
 
