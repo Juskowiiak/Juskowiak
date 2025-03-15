@@ -1,12 +1,20 @@
-# React + Vite
+<h2>Finalmente atualizei o Portfólio 👍</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Como queria deixa-lo um pouco diferente do antigo demorei mais tempo que pensava</p>
 
-Currently, two official plugins are available:
+![Image](https://github.com/user-attachments/assets/d6fda7cc-9639-4317-8368-966d3568d5ac)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Um design completamente diferente.
 
-## Expanding the ESLint configuration
+✅ Adicionei novos projetos e o seu estado.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Tentei focar mais nos detalhes para não depender de animações.
+
+✅ Criei um Projecto especialmente para o Portfólio onde dou uma pequena ajuda, para aqueles que estão a começar agora
+
+<img align="center" title="Portfolio" src="https://img.shields.io/website?label=AfonsoTips&style=for-the-badge&url=https://afonsotips.netlify.app/"> &nbsp&nbsp
+
+❌ Devia ter mais cuidado com o uso das cores
+
+Acredito que fiz um bom trabalho 🔥
+
