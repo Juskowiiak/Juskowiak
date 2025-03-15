@@ -29,9 +29,9 @@
   },
   {
     "id": 2,
-    "nome": "QuizGame",
+    "nome": "Dev-Quiz",
     "titulo": "Perguntas&Respostas",
-    "descricao1": "O utilizador terá de registrar o seu nome, poderá escolher entre 3 niveis de dificuldade, acesso ao ranking...",
+    "descricao1": "O utilizador terá de registrar o seu nome, poderá escolher entre 3 niveis de dificuldade(FÁCIL-HTML/CSS - MÉDIO-JAVASCRIPT - DIFÍCIL-REACT), acesso ao ranking...",
     "descricao2": "",
     "descricao3": "",
     "estado": "Parado",
